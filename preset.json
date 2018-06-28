@@ -1,0 +1,20 @@
+{
+  "useConfigFiles": false,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "standard",
+      "lintOn": [
+        "save"
+      ]
+    },
+    "@vue/cli-plugin-unit-jest": {},
+    "@vue/cli-plugin-e2e-cypress": {},
+    "@parantion/vue-cli-plugin-boilerplate": {
+      "prompts": true
+    }
+  },
+  "router": true,
+  "vuex": true,
+  "cssPreprocessor": "stylus"
+}
